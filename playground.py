@@ -43,7 +43,7 @@ def generate_images(
     
     # for _ in range(num_images):
     resolution = RESOLUTIONS[resolution_type]
-    create_img(user_id, auth_token, prompt, resolution=resolution)
+    create_img(user_id, auth_token, prompt, resolution=resolution, boost_count=0)
 
 if __name__ == "__main__":
     prompt = PROMPTS[1]
